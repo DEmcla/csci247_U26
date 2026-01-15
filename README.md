@@ -180,4 +180,4 @@ This course complements Bergstrom & West's "Calling Bullshit" (statistical and m
 
 ## Contact
 
-[Add contact information]
+d.eve@mcla.edu
