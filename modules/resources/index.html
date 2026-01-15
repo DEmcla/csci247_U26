@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCI 247: Course Resources</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 20px; color: #333; }
+        h1 { color: #1a5276; border-bottom: 3px solid #1a5276; padding-bottom: 10px; }
+        h2 { color: #2874a6; border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-top: 40px; }
+        h3 { color: #1a5276; margin-top: 25px; }
+        .intro { background-color: #f8f9fa; border-left: 4px solid #2874a6; padding: 15px; margin: 15px 0; }
+        .resource { margin: 15px 0; padding: 15px; background-color: #f9f9f9; border-radius: 5px; border-left: 3px solid #ddd; }
+        .resource h4 { margin: 0 0 8px 0; color: #1a5276; }
+        .resource p { margin: 5px 0; font-size: 0.95em; }
+        .tag { display: inline-block; padding: 2px 8px; font-size: 0.75em; border-radius: 3px; margin-right: 8px; color: white; }
+        .tag.article { background-color: #2874a6; }
+        .tag.video { background-color: #c0392b; }
+        .tag.pdf { background-color: #27ae60; }
+        .tag.tool { background-color: #8e44ad; }
+        .tag.optional { background-color: #95a5a6; }
+        .modules { color: #666; font-size: 0.85em; }
+        a { color: #2874a6; }
+        .note { background-color: #fff9e6; border-left: 4px solid #f0ad4e; padding: 15px; margin: 15px 0; }
+        table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #2874a6; color: white; }
+    </style>
+</head>
+<body>
+
+<h1>Course Resources</h1>
+
+<div class="intro">
+    <p>All readings, videos, and materials for CSCI 247. Resources are organized by topic. Each module's index page lists specific assigned materials.</p>
+    <p><strong>No textbook required.</strong> All materials are freely available online or provided as PDFs.</p>
+</div>
+
+<div class="note">
+    <p><strong>For Instructors:</strong> PDFs should be placed in the <code>resources/pdfs/</code> folder. Update links below as materials are added. Verify all web links each semester.</p>
+</div>
+
+<!-- ============================================ -->
+<h2>AI Foundations</h2>
+<p><em>Used in: Modules 1, 2</em></p>
+<!-- ============================================ -->
+
+<h3>How Large Language Models Work</h3>
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://www.ibm.com/think/topics/large-language-models" target="_blank">What Are Large Language Models?</a></h4>
+    <p>IBM Think. Clear explanation of LLM architecture, training, and limitations. Accessible for non-technical readers.</p>
+    <p class="modules">Assigned: Module 1</p>
+</div>
+
+<div class="resource">
+    <h4><span class="tag video">Video</span> <a href="https://www.youtube.com/watch?v=X-AWdfSFCHQ" target="_blank">How ChatGPT Actually Works</a></h4>
+    <p>MIT Sloan / Rama Ramakrishnan (~8 min). Visual explanation of word prediction, training data, and why LLMs make mistakes.</p>
+    <p class="modules">Assigned: Module 1</p>
+</div>
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <span class="tag optional">Optional</span> <a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/" target="_blank">What Is ChatGPT Doing ... and Why Does It Work?</a></h4>
+    <p>Stephen Wolfram. Deep technical dive with visualizations. For students wanting more depth.</p>
+</div>
+
+<h3>AI Bias and Training Data</h3>
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://www.ibm.com/think/topics/ai-bias" target="_blank">What Is AI Bias?</a></h4>
+    <p>IBM Think. Ten types of AI bias with real-world examples in healthcare, hiring, and criminal justice.</p>
+    <p class="modules">Assigned: Module 1</p>
+</div>
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://www.psu.edu/news/research/story/most-users-cannot-identify-ai-bias-even-training-data" target="_blank">Most Users Cannot Identify AI Bias</a></h4>
+    <p>Penn State Research. Study showing people fail to notice systematic bias—good discussion starter.</p>
+    <p class="modules">Assigned: Module 2 (optional)</p>
+</div>
+
+<h3>AI Hallucinations</h3>
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://queue.acm.org/detail.cfm?id=3688007" target="_blank">GPTs and Hallucination</a></h4>
+    <p>ACM Queue. Why LLMs hallucinate: limited training data, controversial topics, lack of consensus. Accessible explanation.</p>
+    <p class="modules">Assigned: Module 2</p>
+</div>
+
+<!-- ============================================ -->
+<h2>Testing & Reproducibility</h2>
+<p><em>Used in: Module 2</em></p>
+<!-- ============================================ -->
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://research.aimultiple.com/reproducible-ai/" target="_blank">Reproducible AI: Why It Matters</a></h4>
+    <p>AIMultiple. Only 30% of AI research is reproducible. Explains why same prompts give different results.</p>
+    <p class="modules">Assigned: Module 2</p>
+</div>
+
+<div class="resource">
+    <h4><span class="tag tool">Website</span> <a href="https://www.callingbullshit.org/syllabus.html" target="_blank">Calling Bullshit: Course Syllabus</a></h4>
+    <p>Bergstrom & West, University of Washington. Critical thinking framework for evaluating claims. Selected modules assigned throughout course.</p>
+    <p class="modules">Assigned: Modules 2, 3</p>
+</div>
+
+<!-- ============================================ -->
+<h2>Data Visualization</h2>
+<p><em>Used in: Module 4</em></p>
+<!-- ============================================ -->
+
+<h3>Identifying Misleading Graphs</h3>
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://www.thoughtspot.com/data-trends/data-visualization/how-to-identify-misleading-graphs-and-charts" target="_blank">How to Identify Misleading Graphs</a></h4>
+    <p>ThoughtSpot. Five deceptive techniques: manipulated axes, cherry-picked data, non-uniform scales. Includes verification checklist.</p>
+    <p class="modules">Assigned: Module 4</p>
+</div>
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://www.luzmo.com/blog/bad-data-visualization" target="_blank">Bad Data Visualization: 9 Examples</a></h4>
+    <p>Luzmo. Real-world examples of misleading graphs with analysis of what went wrong.</p>
+    <p class="modules">Assigned: Module 4</p>
+</div>
+
+<div class="resource">
+    <h4><span class="tag tool">Tool</span> <a href="https://www.callingbullshit.org/tools.html" target="_blank">Calling Bullshit: Visualization Tools</a></h4>
+    <p>Tools for analyzing misleading axes and proportional ink violations.</p>
+    <p class="modules">Assigned: Module 4 (optional)</p>
+</div>
+
+<h3>AI Benchmarks</h3>
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://www.nature.com/articles/d41586-025-00312-0" target="_blank">Is Your AI Benchmark Lying to You?</a></h4>
+    <p>Nature. Overview of benchmark problems: data contamination, brittle performance, unsupported claims.</p>
+    <p class="modules">Assigned: Module 4</p>
+</div>
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://www.oii.ox.ac.uk/news-events/study-identifies-weaknesses-in-how-ai-systems-are-evaluated/" target="_blank">Weaknesses in AI Evaluation</a></h4>
+    <p>Oxford Internet Institute. Research showing ~50% of benchmarks fail to define what they measure.</p>
+    <p class="modules">Assigned: Module 4</p>
+</div>
+
+<!-- ============================================ -->
+<h2>Deepfakes & Synthetic Media</h2>
+<p><em>Used in: Module 4</em></p>
+<!-- ============================================ -->
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://www.media.mit.edu/projects/detect-fakes/overview/" target="_blank">Detect Fakes Project</a></h4>
+    <p>MIT Media Lab. Interactive tool for learning to identify AI-generated faces and media.</p>
+    <p class="modules">Assigned: Module 4</p>
+</div>
+
+<div class="resource">
+    <h4><span class="tag video">Video</span> <a href="https://www.youtube.com/watch?v=gLoI9hAX9dw" target="_blank">How to Spot a Deepfake</a></h4>
+    <p>MIT Technology Review (~6 min). Practical techniques for identifying synthetic media.</p>
+    <p class="modules">Assigned: Module 4</p>
+</div>
+
+<!-- ============================================ -->
+<h2>Technical Communication</h2>
+<p><em>Used in: Module 5</em></p>
+<!-- ============================================ -->
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://document360.com/blog/technical-writing-for-non-technical-audience/" target="_blank">Technical Writing for Non-Technical Audiences</a></h4>
+    <p>Document360. Ten techniques for simplifying complex information: know your audience, focus on outcomes, use analogies.</p>
+    <p class="modules">Assigned: Module 5</p>
+</div>
+
+<div class="resource">
+    <h4><span class="tag article">Article</span> <a href="https://libguides.usc.edu/writingguide/methodology" target="_blank">Writing Methodology Sections</a></h4>
+    <p>USC Libraries. How to document methodology for reproducibility.</p>
+    <p class="modules">Assigned: Module 5</p>
+</div>
+
+<!-- ============================================ -->
+<h2>Evaluation Framework</h2>
+<p><em>Used in: Modules 2, 3, 6</em></p>
+<!-- ============================================ -->
+
+<div class="resource">
+    <h4><span class="tag pdf">Course Document</span> <a href="../course-info/evaluation-framework.html">AI Evaluation Framework</a></h4>
+    <p>Course-specific framework with six components: Function, Data, Failures, Access, Terms, Broader Impact.</p>
+    <p class="modules">Assigned: Modules 2 (intro), 3 (full), 6 (review)</p>
+</div>
+
+<!-- ============================================ -->
+<h2>PDF Resources</h2>
+<!-- ============================================ -->
+
+<div class="note">
+    <p><strong>Location:</strong> <code>resources/pdfs/</code></p>
+    <p>The following resources should be downloaded and stored locally for reliable access:</p>
+</div>
+
+<table>
+    <tr>
+        <th>Filename</th>
+        <th>Source</th>
+        <th>Used In</th>
+    </tr>
+    <tr>
+        <td><code>ibm-what-are-llms.pdf</code></td>
+        <td>IBM Think - What Are Large Language Models</td>
+        <td>Module 1</td>
+    </tr>
+    <tr>
+        <td><code>ibm-ai-bias.pdf</code></td>
+        <td>IBM Think - What Is AI Bias</td>
+        <td>Module 1</td>
+    </tr>
+    <tr>
+        <td><code>acm-gpts-hallucination.pdf</code></td>
+        <td>ACM Queue - GPTs and Hallucination</td>
+        <td>Module 2</td>
+    </tr>
+    <tr>
+        <td><code>nature-ai-benchmarks.pdf</code></td>
+        <td>Nature - Is Your AI Benchmark Lying?</td>
+        <td>Module 4</td>
+    </tr>
+    <tr>
+        <td><code>thoughtspot-misleading-graphs.pdf</code></td>
+        <td>ThoughtSpot - How to Identify Misleading Graphs</td>
+        <td>Module 4</td>
+    </tr>
+</table>
+
+<p><em>Last updated: January 2026</em></p>
+
+</body>
+</html>
