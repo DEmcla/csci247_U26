@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCI 247: Course Modules</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+        h1 { color: #1a5276; border-bottom: 3px solid #1a5276; padding-bottom: 10px; }
+        h2 { color: #2874a6; margin-top: 30px; }
+        .intro { background-color: #f8f9fa; border-left: 4px solid #2874a6; padding: 15px; margin: 15px 0; }
+        .module-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0; }
+        .module-card { background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 8px; padding: 20px; text-decoration: none; color: inherit; transition: all 0.2s; }
+        .module-card:hover { background-color: #e8f4f8; border-color: #2874a6; transform: translateY(-2px); }
+        .module-card h3 { color: #1a5276; margin: 0 0 10px 0; }
+        .module-card p { color: #666; margin: 0; font-size: 0.9em; }
+        .week-tag { background-color: #2874a6; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.8em; }
+        .info-card { background-color: #d4edda; border-color: #28a745; }
+        .info-card h3 { color: #155724; }
+    </style>
+</head>
+<body>
+
+<h1>CSCI 247: Plausible Lies</h1>
+<p><strong>6-Week Online Course Modules</strong></p>
+
+<div class="intro">
+    <p>Welcome to CSCI 247. Each module contains one week of content: readings, activities, and assignments. Complete modules in order.</p>
+    <p>Start with <strong>Course Information</strong> to review the syllabus, requirements, and evaluation framework.</p>
+</div>
+
+<h2>Course Information</h2>
+
+<div class="module-grid">
+    <a href="course-info/index.html" class="module-card info-card">
+        <h3>Course Information</h3>
+        <p>Syllabus, requirements, assessments, evaluation framework, and grading rubrics</p>
+    </a>
+</div>
+
+<h2>Weekly Modules</h2>
+
+<div class="module-grid">
+    <a href="module-1/index.html" class="module-card">
+        <h3><span class="week-tag">Week 1</span> Foundations</h3>
+        <p>What is AI? Types of models. How training works. Introduction to evaluation.</p>
+    </a>
+
+    <a href="module-2/index.html" class="module-card">
+        <h3><span class="week-tag">Week 2</span> Testing Claims</h3>
+        <p>Controlled comparisons. Reproducibility. Methodology documentation.</p>
+    </a>
+
+    <a href="module-3/index.html" class="module-card">
+        <h3><span class="week-tag">Week 3</span> Framework Deep Dive</h3>
+        <p>Full evaluation framework. AI Tool Audit due.</p>
+    </a>
+
+    <a href="module-4/index.html" class="module-card">
+        <h3><span class="week-tag">Week 4</span> Visualizations & Data</h3>
+        <p>AI-generated charts. Misleading visualizations. Benchmark claims.</p>
+    </a>
+
+    <a href="module-5/index.html" class="module-card">
+        <h3><span class="week-tag">Week 5</span> Communication</h3>
+        <p>Technical writing. Methodology documentation. Security Audit due.</p>
+    </a>
+
+    <a href="module-6/index.html" class="module-card">
+        <h3><span class="week-tag">Week 6</span> Application</h3>
+        <p>Tool Adaptability Exercise. Final Portfolio due.</p>
+    </a>
+</div>
+
+</body>
+</html>

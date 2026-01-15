@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity: Training Data Detective</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #1a5276;
+            border-bottom: 3px solid #1a5276;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2874a6;
+            margin-top: 25px;
+        }
+        .intro {
+            background-color: #f8f9fa;
+            border-left: 4px solid #2874a6;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .step {
+            background-color: #e8f4f8;
+            border: 1px solid #5bc0de;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .step h3 {
+            margin-top: 0;
+            color: #2874a6;
+        }
+        .answer-space {
+            background-color: #fff;
+            border: 2px dashed #ccc;
+            padding: 15px;
+            margin: 10px 0;
+            min-height: 80px;
+        }
+        .note {
+            background-color: #fff9e6;
+            border-left: 4px solid #f0ad4e;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .important {
+            background-color: #fce4e4;
+            border-left: 4px solid #c0392b;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .submit {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        ul {
+            margin: 10px 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Training Data Detective</h1>
+
+<div class="intro">
+    <p><strong>Purpose:</strong> Investigate what an AI tool reveals (or hides) about its training data. Practice finding and evaluating technical information about AI systems.</p>
+    <p><strong>Time:</strong> 45-60 minutes</p>
+</div>
+
+<h2>Why This Matters</h2>
+
+<p>AI models learn from data. The training data shapes everything: what the model knows, what it doesn't know, what biases it carries, and what it can realistically do. But companies often don't disclose their training data. Learning to find—and interpret—this information is a core evaluation skill.</p>
+
+<h2>Your Investigation</h2>
+
+<p>Choose one of these AI tools to investigate:</p>
+<ul>
+    <li><strong>ChatGPT</strong> (OpenAI)</li>
+    <li><strong>Claude</strong> (Anthropic)</li>
+    <li><strong>Gemini</strong> (Google)</li>
+</ul>
+
+<p>Your mission: Find out as much as you can about what data was used to train this model.</p>
+
+<div class="step">
+    <h3>Step 1: Check Official Documentation</h3>
+    <p>Visit the company's official website and documentation. Look for:</p>
+    <ul>
+        <li>Technical papers or model cards</li>
+        <li>"About" or "How it works" pages</li>
+        <li>Blog posts announcing the model</li>
+        <li>Terms of service or privacy policy (sometimes mentions training data)</li>
+    </ul>
+    <p><strong>Record what you find:</strong></p>
+    <div class="answer-space">
+        <em>What does the company officially say about training data?</em><br><br>
+        <em>Source URL(s):</em>
+    </div>
+</div>
+
+<div class="step">
+    <h3>Step 2: Look for Independent Analysis</h3>
+    <p>Search for independent reporting or analysis. Try searches like:</p>
+    <ul>
+        <li>"[tool name] training data"</li>
+        <li>"[tool name] what data trained"</li>
+        <li>"[tool name] dataset"</li>
+    </ul>
+    <p><strong>Record what you find:</strong></p>
+    <div class="answer-space">
+        <em>What do independent sources say?</em><br><br>
+        <em>Do they contradict or add to official claims?</em><br><br>
+        <em>Source URL(s):</em>
+    </div>
+</div>
+
+<div class="step">
+    <h3>Step 3: Ask the Tool Itself</h3>
+    <p>Ask the AI tool directly about its training data. Try questions like:</p>
+    <ul>
+        <li>"What data were you trained on?"</li>
+        <li>"What is your knowledge cutoff date?"</li>
+        <li>"Were you trained on copyrighted material?"</li>
+    </ul>
+    <p><strong>Record what you find:</strong></p>
+    <div class="answer-space">
+        <em>What does the tool say about itself?</em><br><br>
+        <em>How confident should you be in this self-report? Why?</em>
+    </div>
+</div>
+
+<div class="note">
+    <p><strong>Important:</strong> AI tools can be wrong about themselves. They may give outdated information, refuse to answer, or even confabulate (make up plausible-sounding but false information). Treat self-reports as one data point, not truth.</p>
+</div>
+
+<div class="step">
+    <h3>Step 4: What Can You Infer?</h3>
+    <p>Even without official disclosure, you can make educated guesses based on behavior:</p>
+    <div class="answer-space">
+        <em>What languages does it handle well? (Suggests those languages were well-represented in training)</em><br><br>
+        <em>What topics does it seem knowledgeable about? What does it struggle with?</em><br><br>
+        <em>Does it seem to have cultural biases toward any particular region or perspective?</em><br><br>
+        <em>What does this suggest about the training data?</em>
+    </div>
+</div>
+
+<div class="step">
+    <h3>Step 5: What's Missing?</h3>
+    <p>This is often the most important question.</p>
+    <div class="answer-space">
+        <em>What couldn't you find out?</em><br><br>
+        <em>What questions remain unanswered?</em><br><br>
+        <em>Why do you think this information isn't available? (Trade secrets? Legal concerns? Never collected?)</em>
+    </div>
+</div>
+
+<h2>Reflection</h2>
+
+<div class="answer-space">
+    <em>How transparent is this company about training data compared to what you expected?</em><br><br>
+    <em>What would you want to know before trusting this tool for important tasks?</em><br><br>
+    <em>Does the lack of transparency change how you'd use the tool?</em>
+</div>
+
+<div class="important">
+    <p><strong>Key Insight:</strong> The absence of information is itself information. A company that won't disclose training data may be hiding something—or may simply not prioritize transparency. Either way, it affects your ability to evaluate the tool.</p>
+</div>
+
+<div class="submit">
+    <h3>Submission</h3>
+    <p>Compile your findings into a document (1-2 pages). Include:</p>
+    <ul>
+        <li>The tool you investigated</li>
+        <li>What you found from each source (official, independent, self-report)</li>
+        <li>What you couldn't find</li>
+        <li>Your reflection</li>
+    </ul>
+    <p>Submit through the Module 1 assignment dropbox.</p>
+</div>
+
+</body>
+</html>
