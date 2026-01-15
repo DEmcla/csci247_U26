@@ -2,7 +2,7 @@
 
 ## Overview
 
-Revamp CSCI 247: Plausible Lies to explicitly meet MCLA Tier II Science & Technology outcomes while preserving the course's core identity as a critical evaluation course.
+Revamp CSCI 247: Confidently Uncertain (originally "Plausible Lies") to explicitly meet MCLA Tier II Science & Technology outcomes while preserving the course's core identity as a critical evaluation course.
 
 ## Tier II Outcomes Mapping
 

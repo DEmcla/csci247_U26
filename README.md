@@ -1,4 +1,4 @@
-# CSCI 247: Plausible Lies
+# CSCI 247: Confidently Uncertain
 
 **Evaluating AI and the Tools That Shape What We Know**
 
