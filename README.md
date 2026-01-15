@@ -182,4 +182,4 @@ This repository is not accepting direct contributions. If you find errors, broke
 
 ## Contact
 
-d.eve@mcla.edu
+David Eve — d.eve@mcla.edu
