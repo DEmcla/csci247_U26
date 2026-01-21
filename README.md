@@ -49,7 +49,7 @@ Students completing this course will be able to:
 
 ---
 
-## Course Content
+## Course Content (standard 14 Weeks)
 
 ### Unit 1: Foundations (Weeks 1-3)
 - What is AI? Types of models: LLMs, image generators, classifiers, recommendation systems
